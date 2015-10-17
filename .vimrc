@@ -18,6 +18,9 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " colorscheme 'molokai'
 NeoBundle 'tomasr/molokai'
 
+" colorscheme 'hybrid'
+NeoBundle 'w0ng/vim-hybrid'
+
 " neomru
 NeoBundle 'Shougo/neomru.vim'
 
@@ -49,10 +52,12 @@ inoremap {<Enter> {}<Left><CR><ESC><S-o>
 inoremap [<Enter> []<Left><CR><ESC><S-o>
 inoremap (<Enter> ()<Left><CR><ESC><S-o>
 
-"カラースキーマの設定
+"色の設定
+set t_Co=256
+"コメントの色を緑に
+autocmd ColorScheme * highlight Comment ctermfg=34 guifg=#008800
+"カラースキームの設定
 colorscheme molokai
 
 syntax on
 
-"色の設定
-set t_Co=256
