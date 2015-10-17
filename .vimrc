@@ -29,6 +29,10 @@ NeoBundle 'Shougo/unite.vim'
 let g:unite_enable_start_insert=1
 let g:unite_source_history_yank_enable=1
 
+"vim-indent-guides インデントの可視化
+NeoBundle 'nathanaelkane/vim-indent-guides'
+"起動時にvim-indent-guidesをオン
+let g:indent_guides_enable_on_vim_startup = 1
 
 call neobundle#end()
 
@@ -45,7 +49,7 @@ set title
 set tabstop=4
 set expandtab
 set shiftwidth=4
-set smartindent
+set autoindent
 
 "閉じ括弧補完
 inoremap {<Enter> {}<Left><CR><ESC><S-o>
