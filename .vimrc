@@ -65,3 +65,8 @@ colorscheme molokai
 
 syntax on
 
+"日本語入力の設定
+call system('type ibus')
+if v:shell_error==0
+    inoremap <Esc> <Esc>:call system('ibus engine "xkb:jp::jpn"')<CR>
+endif
