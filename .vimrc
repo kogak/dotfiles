@@ -34,6 +34,13 @@ NeoBundle 'nathanaelkane/vim-indent-guides'
 "起動時にvim-indent-guidesをオン
 let g:indent_guides_enable_on_vim_startup = 1
 
+" evervim
+NeoBundle 'kakkyz81/evervim'
+"evernoteのトークン設定
+if(filereadable(expand('~/.vimrc.local')))
+    source ~/.vimrc.local
+endif
+
 call neobundle#end()
 
 " Required:
