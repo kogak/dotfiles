@@ -6,3 +6,11 @@ on_ft = ['toml']
 repo = 'tpope/vim-markdown'
 on_ft = ['md', 'markdown']
 
+[[plugins]]
+repo = 'pangloss/vim-javascript'
+on_ft = ['js']
+
+[[plugins]]
+repo = 'posva/vim-vue'
+on_ft = ['vue']
+
