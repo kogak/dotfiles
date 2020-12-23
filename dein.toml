@@ -23,5 +23,9 @@ repo = 'junegunn/fzf.vim'
 depends = ['fzf']
 
 [[plugins]]
+repo = 'tweekmonster/fzf-filemru'
+depends = ['fzf']
+
+[[plugins]]
 repo = 'lambdalisue/fern.vim'
 

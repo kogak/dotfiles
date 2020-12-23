@@ -44,8 +44,16 @@ set termguicolors
 colorscheme dogrun
 
 set encoding=utf-8
-set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
 
 set number
 set cursorline
+set expandtab
+
+" fzf
+nnoremap <Space>aa :FilesMru --tiebreak=end<cr>
+nnoremap <Space>pp :ProjectMru<cr>
+nnoremap <Space>gg :GFiles<cr>
+nnoremap <Space>hh :History<cr>
+nnoremap <Space>bb :Buffers<cr>
+
 
