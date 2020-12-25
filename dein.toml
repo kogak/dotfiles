@@ -29,3 +29,7 @@ depends = ['fzf']
 [[plugins]]
 repo = 'lambdalisue/fern.vim'
 
+[[plugins]]
+repo = "neoclide/coc.nvim"
+merged = 0
+rev = "release"

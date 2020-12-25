@@ -40,6 +40,8 @@ let g:lightline = {
       \ 'colorscheme': 'wombat'
       \ }
 
+syntax on
+
 set termguicolors
 colorscheme dogrun
 
