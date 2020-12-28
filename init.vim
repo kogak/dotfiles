@@ -36,6 +36,11 @@ endif
 " :
 set updatetime=100
 
+" ale
+let g:ale_sign_error = '❌'
+let g:ale_sign_warning = '⚠️'
+
+" lightline
 let g:lightline = {
       \ 'colorscheme': 'wombat'
       \ }

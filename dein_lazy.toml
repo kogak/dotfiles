@@ -1,16 +1,16 @@
-[[plugins]]
-repo = 'cespare/vim-toml'
-on_ft = ['toml']
-
-[[plugins]]
-repo = 'tpope/vim-markdown'
-on_ft = ['md', 'markdown']
-
-[[plugins]]
-repo = 'pangloss/vim-javascript'
-on_ft = ['js']
-
-[[plugins]]
-repo = 'posva/vim-vue'
-on_ft = ['vue']
+# [[plugins]]
+# repo = 'cespare/vim-toml'
+# on_ft = ['toml']
+# 
+# [[plugins]]
+# repo = 'tpope/vim-markdown'
+# on_ft = ['md', 'markdown']
+# 
+# [[plugins]]
+# repo = 'pangloss/vim-javascript'
+# on_ft = ['js']
+# 
+# [[plugins]]
+# repo = 'posva/vim-vue'
+# on_ft = ['vue']
 

@@ -33,3 +33,13 @@ repo = 'lambdalisue/fern.vim'
 repo = "neoclide/coc.nvim"
 merged = 0
 rev = "release"
+
+[[plugins]]
+repo = "sheerun/vim-polyglot"
+
+[[plugins]]
+repo = "dense-analysis/ale"
+
+[[plugins]]
+repo = "cohama/lexima.vim"
+
