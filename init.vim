@@ -44,7 +44,10 @@ let g:ale_sign_warning = '⚠️'
 let g:lightline = {
       \ 'colorscheme': 'wombat'
       \ }
-
+" 
+" fzf.vim
+let g:fzf_layout = { 'window': 'enew' }
+" 
 syntax on
 
 set termguicolors
@@ -63,4 +66,7 @@ nnoremap <Space>gg :GFiles<cr>
 nnoremap <Space>hh :History<cr>
 nnoremap <Space>bb :Buffers<cr>
 
+
+" terminal mode
+tnoremap <silent> <ESC> <C-\><C-n>
 
