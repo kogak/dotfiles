@@ -68,5 +68,5 @@ nnoremap <Space>bb :Buffers<cr>
 
 
 " terminal mode
-tnoremap <silent> <ESC> <C-\><C-n>
+" tnoremap <silent> <ESC> <C-\><C-n>
 
