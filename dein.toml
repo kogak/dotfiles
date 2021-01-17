@@ -21,7 +21,7 @@ merged = 0
 [[plugins]]
 repo = 'junegunn/fzf.vim'
 depends = ['fzf']
-
+ 
 [[plugins]]
 repo = 'tweekmonster/fzf-filemru'
 depends = ['fzf']
@@ -30,16 +30,16 @@ depends = ['fzf']
 repo = 'lambdalisue/fern.vim'
 
 [[plugins]]
-repo = "neoclide/coc.nvim"
-merged = 0
-rev = "release"
+repo = "cohama/lexima.vim"
 
 [[plugins]]
 repo = "sheerun/vim-polyglot"
 
 [[plugins]]
-repo = "dense-analysis/ale"
+repo = "neoclide/coc.nvim"
+merged = 0
+rev = "release"
 
 [[plugins]]
-repo = "cohama/lexima.vim"
+repo = "dense-analysis/ale"
 
